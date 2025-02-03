@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FI THNITI - Peer-to-Peer Delivery</title>
+        <link rel="stylesheet" href="../public/css/styles.css">
+        <script src="public/js/main.js"></script>
+
+    </head>
+    
+<body>
+    <header>
+        <a href="index.html"><img src="C:\Users\fahmi\Desktop\FI THNITI\public\images\logo.png" width="100px"></a>
+
+        <nav>
+            <ul id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login/ Sign up</a></li>
+                 
+            </ul>
+            <div class="navbar-toggle" id="navbarToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section class="form-container">
+        <div class="form-section">
+            <h2>Login</h2>
+            <form action="http://localhost:3000/auth/login" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button class="bs" type="submit">Login</button>
+                <a class="acc" href="signup.html">You don't have an account ?</a>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 FI THNITI. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
